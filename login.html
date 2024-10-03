@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In to Gado-Gado</title>
+    
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <img src="logo.png" alt="Gado-Gado Logo" class="logo">
+        <h2>Log In to Gado-Gado</h2>
+        <p>Enter a registered Gasking’s email address and password</p>
+        <form id="loginForm">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            
+            <label for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+
+            <button type="submit">Log In</button>
+        </form>
+        <div class="language-select">
+            <select>
+                <option value="en">EN</option>
+                <option value="id">ID</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="logintorole.js"></script>
+
+</body>
+</html>

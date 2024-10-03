@@ -1,0 +1,167 @@
+/* Importing Google Fonts (Poppins for the text) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.dashboard-header {
+    background-color: #202a44;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.user-avatar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.dashboard-main {
+    padding: 20px;
+}
+
+.control-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    background-color: #dddddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.download-btn span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.filter-btn {
+    background-color: #a3d900;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.filter-btn span {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.course-section, .resource-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.course-card, .resource-card {
+    background-color: #1e2b50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-card .chart img {
+    width: 100px;
+    height: 100px;
+}
+
+.course-info {
+    margin-top: 10px;
+}
+
+.status {
+    display: block;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.status.done {
+    color: #1ad4a3;
+}
+
+.status.ongoing {
+    color: #f8b700;
+}
+
+.status.not-started {
+    color: #3498db;
+}
+
+.status.late {
+    color: #e74c3c;
+}
+
+.resource-card {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a4ca1;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.resource-card.knowledge-bank {
+    background-color: #003366;
+}
+
+.resource-card.education-reels {
+    background-color: #1e2b50;
+}
